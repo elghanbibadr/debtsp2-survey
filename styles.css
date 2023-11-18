@@ -3,6 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
    padding: 0;
    margin: 0;
+   position: relative;
 }
 
 header{
@@ -28,6 +29,70 @@ header{
    padding-bottom: 20px;
   
 }
+
+@media screen and (min-width:1008px){
+ .videoBox{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 120px;
+  margin-inline: auto;
+
+ }   
+ .videoBox-desc{
+ text-align: left !important;    
+ }
+ #my-video{
+    background-color: #185394 !important;
+ }
+}
+#my-video{
+    /* max-width: 800px; */
+    /* height: 490px; */
+   /* width: 500px !important; */
+   /* height:  !important; */
+ }
+
+ .vjs-fullscreen#my-video{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='800' height='464' viewBox='0 0 800 464'%3E%3Cdefs%3E%3ClinearGradient id='b' x1='100%25' x2='50%25' y1='33.18%25' y2='66.82%25'%3E%3Cstop offset='0%25' stop-color='%23272727'/%3E%3Cstop offset='100%25' stop-color='%23111'/%3E%3C/linearGradient%3E%3Cpath id='a' d='M0 0h800v464H0z'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='c' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cuse fill='url(%23b)' xlink:href='%23a'/%3E%3Cg fill='%23FFF' mask='url(%23c)' opacity='.5'%3E%3Cg opacity='.06' transform='rotate(-90 234.5 284.5)'%3E%3Ccircle cx='173' cy='55' r='39'/%3E%3Ccircle cx='126' cy='110' r='23'/%3E%3Ccircle cx='225' cy='99' r='18'/%3E%3Ccircle cx='184.5' cy='161.5' r='45.5'/%3E%3Ccircle cx='310' cy='163' r='63'/%3E%3Ccircle cx='410' cy='126' r='36'/%3E%3Ccircle cx='508' cy='118' r='36'/%3E%3Ccircle cx='358.5' cy='78.5' r='22.5'/%3E%3Ccircle cx='458' cy='76' r='23'/%3E%3Ccircle cx='406' cy='61' r='18'/%3E%3Ccircle cx='280.5' cy='45.5' r='45.5'/%3E%3Ccircle cx='413' cy='215' r='39'/%3E%3Ccircle cx='368' cy='270' r='23'/%3E%3Ccircle cx='465' cy='259' r='18'/%3E%3Ccircle cx='464.5' cy='390.5' r='24.5'/%3E%3Ccircle cx='463' cy='162' r='18'/%3E%3Ccircle cx='508' cy='50' r='23'/%3E%3Ccircle cx='424.5' cy='321.5' r='45.5'/%3E%3Ccircle cx='324.5' cy='334.5' r='45.5'/%3E%3Ccircle cx='540' cy='323' r='63'/%3E%3Ccircle cx='520.5' cy='205.5' r='45.5'/%3E%3Ccircle cx='124' cy='337' r='63'/%3E%3Ccircle cx='224' cy='300' r='36'/%3E%3Ccircle cx='172.5' cy='252.5' r='22.5'/%3E%3Ccircle cx='272' cy='250' r='23'/%3E%3Ccircle cx='220' cy='235' r='18'/%3E%3Ccircle cx='94.5' cy='219.5' r='45.5'/%3E%3Ccircle cx='217' cy='464' r='23'/%3E%3Ccircle cx='233.5' cy='508.5' r='12.5'/%3E%3Ccircle cx='82' cy='590' r='63'/%3E%3Ccircle cx='157' cy='502' r='33'/%3E%3Ccircle cx='159' cy='431' r='31'/%3E%3Ccircle cx='327' cy='465' r='24'/%3E%3Ccircle cx='272.5' cy='454.5' r='22.5'/%3E%3Ccircle cx='309.5' cy='411.5' r='22.5'/%3E%3Ccircle cx='320' cy='257' r='18'/%3E%3Ccircle cx='292.5' cy='532.5' r='45.5'/%3E%3Ccircle cx='203.5' cy='573.5' r='45.5'/%3E%3Ccircle cx='408' cy='529' r='63'/%3E%3Ccircle cx='63' cy='459' r='63'/%3E%3Ccircle cx='508' cy='492' r='36'/%3E%3Ccircle cx='456.5' cy='444.5' r='22.5'/%3E%3Ccircle cx='504' cy='427' r='18'/%3E%3Ccircle cx='386.5' cy='413.5' r='45.5'/%3E%3Ccircle cx='237.5' cy='390.5' r='45.5'/%3E%3C/g%3E%3C/g%3E%3Cg fill='%23FFF' mask='url(%23c)' opacity='.5'%3E%3Cg opacity='.06' transform='rotate(-90 490.5 5.5)'%3E%3Ccircle cx='167' cy='127' r='39'/%3E%3Ccircle cx='103' cy='161' r='23'/%3E%3Ccircle cx='34.5' cy='165.5' r='34.5'/%3E%3Ccircle cx='219' cy='159' r='18'/%3E%3Ccircle cx='166.5' cy='218.5' r='45.5'/%3E%3Ccircle cx='287' cy='214' r='63'/%3E%3Ccircle cx='387' cy='177' r='36'/%3E%3Ccircle cx='485' cy='36' r='36'/%3E%3Ccircle cx='485' cy='169' r='36'/%3E%3Ccircle cx='332.5' cy='135.5' r='22.5'/%3E%3Ccircle cx='435' cy='127' r='23'/%3E%3Ccircle cx='384' cy='115' r='18'/%3E%3Ccircle cx='386' cy='77' r='12'/%3E%3Ccircle cx='310' cy='46' r='12'/%3E%3Ccircle cx='338.5' cy='79.5' r='27.5'/%3E%3Ccircle cx='257.5' cy='96.5' r='45.5'/%3E%3Ccircle cx='390' cy='266' r='39'/%3E%3Ccircle cx='343' cy='321' r='23'/%3E%3Ccircle cx='442' cy='310' r='18'/%3E%3Ccircle cx='440' cy='213' r='18'/%3E%3Ccircle cx='428' cy='77' r='22'/%3E%3Ccircle cx='485' cy='101' r='23'/%3E%3Ccircle cx='527' cy='374' r='63'/%3E%3Ccircle cx='497.5' cy='256.5' r='45.5'/%3E%3Ccircle cx='149.5' cy='303.5' r='22.5'/%3E%3Ccircle cx='249' cy='301' r='23'/%3E%3Ccircle cx='197' cy='286' r='18'/%3E%3Ccircle cx='64.5' cy='263.5' r='52.5'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") !important;
+
+ }
+
+ .video-js .vjs-tech{
+    width:auto !important;
+ }
+
+ .vjs-fullscreen.video-js .vjs-tech{
+    width:100% !important;
+ }
+
+ .video-js .vjs-control-bar{
+    margin-top: 0 !important;
+   
+   
+ }
+
+ /* Hide the progress bar and control bar in Video.js */
+.video-js .vjs-control-bar,
+.video-js .vjs-progress-control {
+    display: none !important;
+}
+
+
+ .vjs-text-track-display{
+  /* height: 100% !important;
+  width: 100% !important; */
+  display: none;
+ }
+ 
+ @media screen and (min-width:735px){
+    .video-js .vjs-tech{
+        /* width:100% !important; */
+     }
+    
+ }
 
 .videoBox button{
     color: #185394;
@@ -123,23 +188,6 @@ ul .passotitle{
 }
 
 
-@media screen and (min-width:960px){
-    .grid-cols3{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }
-    .btns-wrrapers{
-        max-width: 1200px;
-        margin-inline: auto;
-    }
-    
-}
-
-.btns-wrrapers button:last-child {
-    grid-column-start: 3;
-    grid-column-end: 5;
- 
-}
 
 
 
@@ -188,3 +236,91 @@ footer a {
 background-color: #185394;
 color: white;
 }
+
+
+
+.container{
+    max-width: 1110px;
+    margin-inline: auto;
+}
+
+
+/* MODAL */
+
+
+.overlay{
+    background-color: #111111f2;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.overlay h4{
+    font-size: 27px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+
+.modal{
+    padding:10px;
+    width: 90%;
+}
+.modal-card{
+ background-color:#3257a1;
+ max-width: 500px;
+ padding: 20px 10px;
+ border: 2px solid white;
+ color: white;
+ margin-inline: auto;
+ border-radius: 4px;
+ text-align: center;
+}
+
+
+
+.modal-card h3{
+    font-size: 29px;
+}
+
+.modal-card button{
+    width: 90%;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-inline: auto;
+    padding-block: 1px !important;
+    color: #185394;
+    font-size: 20px;
+}
+
+
+
+
+/* media queries */
+@media screen and (min-width:960px){
+    .grid-cols3{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .btns-wrrapers{
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+    .modal {
+        width: 40%;
+     }
+     .btns-wrrapers button:last-child {
+         grid-column-start: 3;
+         grid-column-end: 5;
+      
+     }
+}
+
