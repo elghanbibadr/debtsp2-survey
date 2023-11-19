@@ -41,8 +41,8 @@ header{
   grid-template-columns: 1fr 500px;
   align-items: center;
   justify-content: center;
-  width: 80%;
-  gap: 12px;
+  /* width: 80%; */
+  gap: 22px;
   margin-inline: auto;
 
  }   
@@ -59,9 +59,15 @@ header{
 
 
 .video-js .vjs-tech{
-    max-width:500px ;
+    max-width:800px ;
    
  }
+    
+.videoBox-desc button{
+    margin-inline: 1px !important;
+
+}
+
 }
 
 
@@ -97,8 +103,8 @@ header{
 
    
 .videoBox-desc button{
-               margin-inline: auto;
-       
+    margin-inline: auto;
+
 }
 
  .vjs-fullscreen#my-video{
@@ -150,17 +156,42 @@ button{
 
 .elegibiliy{
 text-align: left;
+
  
 }
 
-.elegibiliy p{
-    font-size: 24px;
+@media screen and (min-width:786px) {
+    .elegibiliy ul {
+        width: 60%;
+        margin-inline: auto;
+
+    }
+}
+.elegibiliy ul {
+    color: #0f0f0f;
+}
+
+.elegibilitydesc {
+    color: #0f0f0f;
+    font-size: 20px;
     line-height: 34px;
+    font-weight: 400;
+    margin-left:3px;
+    position: relative;
+    top: -3px;
+}
+
+.elegibiliy p{
+    font-size: 20px;
+    line-height: 27px;
+    color: #0f0f0f;
 }
 
 .elegibiliy h3,.whereyoulive h3{
     text-align: center;
-    font-size: 27px;
+    font-size: 34px;
+    line-height: 32px;
+    font-weight: 500;
 }
 
 
@@ -171,25 +202,23 @@ ul{
 
 ul li {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+    align-items: center;
 }
 
 ul .passotitle{
     justify-self: start;
     align-self: start;
     color: #185394;
-    font-weight: bold;
+    font-weight: 600;
+    line-height: 27px;
     white-space: nowrap;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .checkmarkk-img{
     height: fit-content;
-}
-.elegibilitydesc{
-    font-size: 24px;
-    margin-left: 10px;
 }
 
 /* WHERE DO YOU LIVE */
@@ -376,3 +405,21 @@ color: white;
      }
 }
 
+footer {
+    padding-bottom: 20px;
+}
+footer a{
+    display: inline-block;
+    margin-bottom: 10px !important;
+    margin-right: 4px;
+}
+
+br{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    br{
+        display: block;
+    }
+}
