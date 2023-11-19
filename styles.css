@@ -17,16 +17,57 @@ header{
 }
 
  h2{
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 26px;
+    color: rgb(5, 5, 5);
+    line-height: 30px;
+    padding-inline: 20px;
 }
 
+@media screen and (min-width: 468px) {
+    
+    h2{
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    button{
+        font-size: 28px !important;
+        padding: 24px 48px !important;
+
+    }
+
+.elegibiliy h3,.whereyoulive h3{
+    text-align: center;
+    font-size: 34px !important;
+    line-height: 32px;
+    font-weight: 500;
+} 
+
+.elegibiliy p , .elegibilitydesc,ul .passotitle{
+    font-size: 20px !important;
+}
+ul .passotitle{
+    white-space: nowrap !important;
+}
+
+}
+
+
+
+
+.videoBox-desc{
+    padding: 10px;
+}
 
 
 
 .videoBox-wrraper{
 
     background-color: #185394;
+}
+
+.videoBox h2{
+    color: white;
 }
 .videoBox{
    color: white;
@@ -50,6 +91,7 @@ header{
  #my-video{
     background-color: #185394 !important;
  width:auto;
+
  }
    
  .videoBox-desc {
@@ -59,8 +101,7 @@ header{
 
 
 .video-js .vjs-tech{
-    max-width:800px ;
-   
+    max-width:800px  ;  
  }
     
 .videoBox-desc button{
@@ -70,15 +111,17 @@ header{
 
 }
 
-
+.todotitle{
+    margin-top: 7rem !important;
+}
 
 /* VIDEO STYLES  */
 
+ul{
+    margin-inline: 0 ;
+}
 
-     .video-js .vjs-tech{
-        width:auto ;
-     }
-    
+  
      .vjs-fullscreen.video-js .vjs-tech{
         width:100% !important;
         max-width:100%;
@@ -90,7 +133,10 @@ header{
         padding: 10px;
      }
    
-    
+    .elegibiliy p,.elegibilitydesc{
+   padding-inline: 18px;
+    }
+
      .video-js .vjs-control-bar{
         margin-top: 0 !important;
        
@@ -142,12 +188,13 @@ header{
 
 button{
     background-color: #fcaf10;
-    padding: 24px 48px;
+    padding: 24px 20px;
     border-radius: 3px;
-    border: none;
-    font-size: 26px;
+    border: none; 
+    font-size: 22px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
+    white-space: nowrap;
     height: 88px;
     display: block;
     max-width: 570px;
@@ -173,7 +220,6 @@ text-align: left;
 
 .elegibilitydesc {
     color: #0f0f0f;
-    font-size: 20px;
     line-height: 34px;
     font-weight: 400;
     margin-left:3px;
@@ -182,15 +228,18 @@ text-align: left;
 }
 
 .elegibiliy p{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 27px;
     color: #0f0f0f;
 }
 
+
 .elegibiliy h3,.whereyoulive h3{
     text-align: center;
-    font-size: 34px;
+    font-size: 25px;
     line-height: 32px;
+
+       color: rgb(5, 5, 5);   
     font-weight: 500;
 }
 
@@ -213,12 +262,14 @@ ul .passotitle{
     font-weight: 600;
     line-height: 27px;
     white-space: nowrap;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
 }
 
 .checkmarkk-img{
     height: fit-content;
+    justify-self: start;
+    align-self: flex-start;
 }
 
 /* WHERE DO YOU LIVE */
@@ -422,4 +473,11 @@ br{
     br{
         display: block;
     }
+}
+
+
+@media screen and (max-width:500){
+ p{
+    font-size: 1px !important;
+ }
 }
